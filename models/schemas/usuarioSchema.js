@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
+
 const bcryptjs = require('bcryptjs');
 
 const usuarioSchema = new mongoose.Schema({
   codigo: Number,
-  perfil: {type: mongoose.Schema.Types.ObjectId, ref: 'perfil'},
+  perfil: { type: mongoose.Schema.Types.ObjectId, ref: 'perfil' },
   nome: {
     type: String,
     required: true
@@ -17,7 +18,7 @@ const usuarioSchema = new mongoose.Schema({
   senha: {
     type: String,
     required: true,
-    select: false //faz com que não seja possível visualizar senhas de usuário ao fazer uma requisição de usuários (esconde a senha, mas não outros dados)
+    select: false //faz com que não seja possível visualizar senhas de usuário ao fazer uma requisição de usuários (esconde a senha, mas não outras propriedades)
   },
   dataCriacao: {
     type: Date,
@@ -29,7 +30,7 @@ const usuarioSchema = new mongoose.Schema({
   }
 });
 
-usuarioSchema.pre('save', async function(next){
+usuarioSchema.pre('save', async function (next) {
   const hash = await bcryptjs.hash(this.senha, 10);
   this.senha = hash;
   next();

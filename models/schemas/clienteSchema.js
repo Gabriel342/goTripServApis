@@ -11,7 +11,6 @@ const clienteSchema = new mongoose.Schema({
         require: true
     },
     saldoCarteira: Number,
-    
     usuario: { type: mongoose.Schema.Types.ObjectId, ref: 'usuario' },
 });
 
