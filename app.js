@@ -8,12 +8,12 @@ var cors = require('cors');
 
 var indexRouter = require('./routes/indexRouter');
 var clienteRouter = require('./routes/clienteRouter');
-var loginController = require('./routes/loginRouter');
-// var locaisHomeRouter = require('./routes/locaisHomeRouter');
-var passagemRouter = require('./routes/passagemRouter');
+var loginRouter = require('./routes/loginRouter');
+// var locaisHomeRouter = require('./routes/locaisHomeRouter'); //Adicionar
+// var passagemRouter = require('./routes/passagemRouter');
 var perfilRouter = require('./routes/perfilRouter');
 var usuarioRouter = require('./routes/usuarioRouter');
-var vooRouter = require('./routes/vooRouter');
+// var vooRouter = require('./routes/vooRouter');
 
 var app = express();
 
@@ -31,10 +31,10 @@ app.use(cors());
 app.use('/', indexRouter);
 app.use('/auth', loginRouter)
 app.use('/cliente', clienteRouter);
-app.use('/passagem', passagemRouter);
+// app.use('/passagem', passagemRouter);
 app.use('/perfil', perfilRouter);
 app.use('/usuario', usuarioRouter);
-app.use('/voo', vooRouter);
+// app.use('/voo', vooRouter);
 
 // // Recursos de upload.
 // const multer = require('multer');
