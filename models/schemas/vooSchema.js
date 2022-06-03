@@ -18,3 +18,12 @@ const vooSchema = new mongoose.schema({
 });
 
 module.exports = vooSchema;
+
+/*
+local: {
+        codigo: String,
+        capital: String,
+        foto: String,
+        descricao: String
+    }
+*/

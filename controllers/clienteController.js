@@ -23,7 +23,7 @@ class ClienteController {
     async buscarPorCodigo(req, res) {
         const codigo = req.params.codigo;
         const resultado = await clienteModel.findOne({ 'codigo': codigo })
-            .populate('usuario').populate('loja');
+            .populate('usuario');
         res.status(200).json(resultado);
     }
 

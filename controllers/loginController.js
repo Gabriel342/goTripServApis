@@ -4,15 +4,15 @@ const bcryptjs = require('bcryptjs');
 
 class LoginController {
 
-  async login(req, res){
+  async login(req, res) {
     const { email, senha } = req.body;
-    const usuario = await usuarioModel.findOne({'email': email}).select('+senha').populate('perfil');
+    const usuario = await usuarioModel.findOne({ 'email': email }).select('+senha').populate('perfil');
     if (!usuario) {
-      return res.status(400).send({error: 'Usuário não encontrado!'});
+      return res.status(400).send({ error: 'Usuário não encontrado!' });
     }
 
-    if (!await bcryptjs.compare(senha, usuario.senha)){
-      return res.status(400).send({error: 'Senha inválida!'});
+    if (!await bcryptjs.compare(senha, usuario.senha)) {
+      return res.status(400).send({ error: 'Senha inválida!' });
     }
 
     await auth.incluirToken(usuario);
