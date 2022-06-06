@@ -1,0 +1,23 @@
+[
+    {
+        "codigo": "1",
+        "perfil": "1",
+        "nome": "administrador",
+        "email": "administrador@gmail.com",
+        "senha": "senha123"
+    },
+    {
+        "codigo": "2",
+        "perfil": "2",
+        "nome": "Athos",
+        "email": "athos@gmail.com",
+        "senha": "senha123"
+    },
+    {
+        "codigo": "3",
+        "perfil": "2",
+        "nome": "Gabriel",
+        "email": "gabriel@gmail.com",
+        "senha": "senha123"
+    }
+]

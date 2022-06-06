@@ -1,8 +1,7 @@
 const passagemModel = require('../models/passagemModel');
-const vooModel = require('../models/clienteModel');
-const clienteModel = require('../models/clienteModel')
 
-class passagemController {
+class PassagemController {
+
     async salvar(req, res) {
         const max = await passagemModel.findOne({}).sort({ codigo: -1 });
         const passagem = req.body;
@@ -13,21 +12,24 @@ class passagemController {
     }
 
     async listar(req, res) {
-        const resultado = await passagemModel.find({ 'usuarioId': req.params.usuarioId });
+        const resultado = await passagemModel
+            .find({});
         res.status(200).json(resultado);
     }
 
     async buscarPorCodigo(req, res) {
-        const { usuarioId, codigo } = req.params;
-        const resultado = await pedidoModel.findOne({ 'codigo': codigo, 'usuarioId': usuarioId });
+        const codigo = req.params.codigo;
+        const resultado = await passagemModel.findOne({ 'codigo': codigo });
         res.status(200).json(resultado);
-
     }
 
     async atualizar(req, res) {
         const codigo = req.params.codigo;
         const _id = String((await passagemModel.findOne({ 'codigo': codigo }))._id);
-        await passagemModel.findByIdAndUpdate(String(_id), req.body);
+
+        const passagem = req.body;
+
+        await passagemModel.findByIdAndUpdate(String(_id), passagem);
         res.status(200).send();
     }
 
@@ -39,4 +41,4 @@ class passagemController {
     }
 }
 
-module.exports = new passagemController();
+module.exports = new PassagemController();

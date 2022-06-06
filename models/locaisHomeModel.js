@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 
 const locaisHomeSchema = new mongoose.Schema({
     codigo: Number,
-    local: {type: mongoose.Schema.Types.ObjectId, ref: 'passagem'}
+    capital: String,
+    foto: String,
+    descricao: String,
 });
 
 module.exports = mongoose.model('locaisHome', locaisHomeSchema);

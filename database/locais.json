@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": 1,
+        "capital": "Rio de Janeiro",
+        "foto": "../assets/image/rio.jpg",
+        "descricao": "A cidade do Rio de Janeiro, constituída por paisagens de excepcional beleza cênica, tem na água e na montanha os regentes de sua geografia exuberante."
+    },
+    {
+        "codigo": 2,
+        "capital": "São Paulo",
+        "foto": "../assets/image/saopaulo.jpg",
+        "descricao": "São Paulo, centro financeiro do Brasil, está entre as cidades mais populosas do mundo, com diversas instituições culturais e uma rica tradição arquitetônica."
+    },
+    {
+        "codigo": 3,
+        "capital": "Curitiba",
+        "foto": "../assets/image/curitiba.jpg",
+        "descricao": "Maior cidade do Sul do país, com quase 2 milhões de habitantes, Curitiba é referência em qualidade de vida e foi eleita a cidade mais inteligente do Brasil."
+    }
+]

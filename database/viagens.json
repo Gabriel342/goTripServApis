@@ -1,0 +1,38 @@
+[
+    {
+      "codigo": 1,
+      "voo": "8",
+      "cliente": 1,
+      "total": 0
+    },
+    {
+      "codigo": 2,
+      "voo": "1",
+      "cliente": "1",
+      "total": 0
+    },
+    {
+      "codigo": 3,
+      "voo": "1",
+      "cliente": "2",
+      "total": 0
+    },
+    {
+      "codigo": 4,
+      "voo": "2",
+      "cliente": "2",
+      "total": 0
+    },
+    {
+      "codigo": 5,
+      "voo": "3",
+      "cliente": "2",
+      "total": 0
+    },
+    {
+      "codigo": 6,
+      "voo": "7",
+      "cliente": "3",
+      "total": 0
+    }
+]
