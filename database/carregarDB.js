@@ -76,23 +76,18 @@ async function carregarDados() {
 
     //carga de viagens
     await viagemModel.deleteMany({});
+
     for (const viagem of viagens) {
-      await clienteModel.findOne({ codigo: viagem.cliente }).then((cliente) => {
-        viagem.cliente = cliente._id;
-      });
-
-      await passagemModel.findOne({ codigo: viagem.passagem }).then((passagem) => {
-        viagem.passagem = passagem._id;
-      });
-
-      for await (const [i] of passagens.itens.entries()) {
-        await passagemModel
-          .findOne({ codigo: passagens.itens[i].local })
-          .then(async (local) => {
-            viagem.itens[i].local = local._id;
-          });
-      }
-      await viagemModel.create(viagem);
+     await passagemModel
+        .findOne({ codigo: viagem.passagem })
+        .then((passagem) => {
+          viagem.passagem = passagem._id;
+        });
+        await clienteModel.findOne({ codigo: viagem.cliente })
+        .then((cliente) =>{
+          viagem.cliente = cliente._id;
+        });
+        await viagemModel.create(viagem);
     }
     console.log("Carga de viagens concluída!");
 
