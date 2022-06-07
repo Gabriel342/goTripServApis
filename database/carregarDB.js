@@ -78,16 +78,17 @@ async function carregarDados() {
     await viagemModel.deleteMany({});
 
     for (const viagem of viagens) {
-     await passagemModel
+      await passagemModel
         .findOne({ codigo: viagem.passagem })
         .then((passagem) => {
           viagem.passagem = passagem._id;
         });
-        await clienteModel.findOne({ codigo: viagem.cliente })
-        .then((cliente) =>{
+
+      await clienteModel.findOne({ codigo: viagem.cliente })
+        .then((cliente) => {
           viagem.cliente = cliente._id;
         });
-        await viagemModel.create(viagem);
+      await viagemModel.create(viagem);
     }
     console.log("Carga de viagens concluída!");
 
