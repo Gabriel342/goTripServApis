@@ -19,10 +19,6 @@ const usuarioSchema = new mongoose.Schema({
     required: true,
     select: false //faz com que não seja possível visualizar senhas de usuário ao fazer uma requisição de usuários (esconde a senha, mas não outras propriedades)
   },
-  dataCriacao: {
-    type: Date,
-    default: Date.now
-  },
   token: {
     type: String,
     select: false

@@ -3,21 +3,21 @@
       "codigo": 1,
       "nome": "administrador",
       "idade": 20,
-      "saldo_carteira": 1500,
+      "saldoCarteira": 1500,
       "usuario": 1
     },
     {
       "codigo": 2,
       "nome": "Athos",
       "idade": 30,
-      "saldo_carteira": 7600,
+      "saldoCarteira": 7600,
       "usuario": 2
     },
     {
       "codigo": 3,
       "nome": "Gabriel",
       "idade": 27,
-      "saldo_carteira": 4500,
+      "saldoCarteira": 4500,
       "usuario": 3
     }
 ]

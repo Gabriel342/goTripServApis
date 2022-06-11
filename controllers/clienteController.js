@@ -1,6 +1,6 @@
 const clienteModel = require('../models/clienteModel');
 const usuarioModel = require('../models/usuarioModel');
-
+    
 class ClienteController {
 
     async salvar(req, res) {
@@ -16,7 +16,7 @@ class ClienteController {
     }
 
     async listar(req, res) {
-        const resultado = await clienteModel.find({});
+        const resultado = await clienteModel.find({}).populate('usuario');
         res.status(200).json(resultado);
     }
 

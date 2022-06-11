@@ -57,7 +57,6 @@ async function carregarDados() {
       await usuarioModel
         .findOne({ codigo: cliente.usuario })
         .then((usuario) => {
-          cliente.codigo = usuario.codigo;
           cliente.usuario = usuario._id;
           return cliente;
         })
