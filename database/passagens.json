@@ -4,7 +4,7 @@
     "origem": "Curitiba-PR",
     "destino": "Rio de Janeiro-RJ",
     "preco": 2100,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-01-03",
     "data_volta": "2022-02-28"
   },
@@ -13,7 +13,7 @@
     "origem": "Rio de janeiro-RJ",
     "destino": "São Paulo-SP",
     "preco": 789,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-03-12",
     "data_volta": "2022-04-20"
   },
@@ -22,7 +22,7 @@
     "origem": "São Paulo-SP",
     "destino": "Cuiabá-MT",
     "preco": 4100,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-04-25",
     "data_volta": "2022-05-10"
   },
@@ -31,7 +31,7 @@
     "origem": "São Paulo-SP",
     "destino": "Curitiba-PR",
     "preco": 700,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-04-25",
     "data_volta": "2022-05-20"
   },
@@ -40,7 +40,7 @@
     "origem": "São Paulo-SP",
     "destino": "Curitiba-PR",
     "preco": 650,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-06-25",
     "data_volta": "2022-07-25"
   },
@@ -49,7 +49,7 @@
     "origem": "São Paulo-SP",
     "destino": "Curitiba-PR",
     "preco": 870,
-    "qtde_pessoas": "0",
+    "qtde_pessoas": 2,
     "data_ida": "2022-05-14",
     "data_volta": "2022-05-27"
   },
@@ -58,7 +58,7 @@
     "origem": "Curitiba-PR",
     "destino": "Cuiabá-MT",
     "preco": 800,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-04-25",
     "data_volta": "2022-04-25"
   },
@@ -67,7 +67,7 @@
     "origem": "São Paulo-SP",
     "destino": "Florianópolis-SC",
     "preco": 930,
-    "qtde_pessoas": 0,
+    "qtde_pessoas": 2,
     "data_ida": "2022-03-12",
     "data_volta": "2022-04-14"
   }
