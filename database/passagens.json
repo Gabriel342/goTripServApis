@@ -3,8 +3,8 @@
     "codigo": 1,
     "origem": "Curitiba-PR",
     "destino": "Rio de Janeiro-RJ",
-    "preco": 2100,
-    "qtde_pessoas": 2,
+    "preco": 450,
+    "qtde_pessoas": 1,
     "data_ida": "2022-01-03",
     "data_volta": "2022-02-28"
   },
@@ -12,8 +12,8 @@
     "codigo": 2,
     "origem": "Rio de janeiro-RJ",
     "destino": "São Paulo-SP",
-    "preco": 789,
-    "qtde_pessoas": 2,
+    "preco": 300,
+    "qtde_pessoas": 1,
     "data_ida": "2022-03-12",
     "data_volta": "2022-04-20"
   },
@@ -21,8 +21,8 @@
     "codigo": 3,
     "origem": "São Paulo-SP",
     "destino": "Cuiabá-MT",
-    "preco": 4100,
-    "qtde_pessoas": 2,
+    "preco": 350,
+    "qtde_pessoas": 1,
     "data_ida": "2022-04-25",
     "data_volta": "2022-05-10"
   },
@@ -30,8 +30,8 @@
     "codigo": 4,
     "origem": "São Paulo-SP",
     "destino": "Curitiba-PR",
-    "preco": 700,
-    "qtde_pessoas": 2,
+    "preco": 400,
+    "qtde_pessoas": 1,
     "data_ida": "2022-04-25",
     "data_volta": "2022-05-20"
   },
@@ -39,8 +39,8 @@
     "codigo": 5,
     "origem": "São Paulo-SP",
     "destino": "Curitiba-PR",
-    "preco": 650,
-    "qtde_pessoas": 2,
+    "preco": 480,
+    "qtde_pessoas": 1,
     "data_ida": "2022-06-25",
     "data_volta": "2022-07-25"
   },
@@ -48,8 +48,8 @@
     "codigo": 6,
     "origem": "São Paulo-SP",
     "destino": "Curitiba-PR",
-    "preco": 870,
-    "qtde_pessoas": 2,
+    "preco": 470,
+    "qtde_pessoas": 1,
     "data_ida": "2022-05-14",
     "data_volta": "2022-05-27"
   },
@@ -57,8 +57,8 @@
     "codigo": 7,
     "origem": "Curitiba-PR",
     "destino": "Cuiabá-MT",
-    "preco": 800,
-    "qtde_pessoas": 2,
+    "preco": 700,
+    "qtde_pessoas": 1,
     "data_ida": "2022-04-25",
     "data_volta": "2022-04-25"
   },
@@ -66,8 +66,17 @@
     "codigo": 8,
     "origem": "São Paulo-SP",
     "destino": "Florianópolis-SC",
-    "preco": 930,
-    "qtde_pessoas": 2,
+    "preco": 600,
+    "qtde_pessoas": 1,
+    "data_ida": "2022-03-12",
+    "data_volta": "2022-04-14"
+  },
+  {
+    "codigo": 9,
+    "origem": "Curitiba",
+    "destino": "São Paulo-SP",
+    "preco": 600,
+    "qtde_pessoas": 1,
     "data_ida": "2022-03-12",
     "data_volta": "2022-04-14"
   }
