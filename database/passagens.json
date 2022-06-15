@@ -75,7 +75,7 @@
     "codigo": 9,
     "origem": "Curitiba",
     "destino": "São Paulo-SP",
-    "preco": 600,
+    "preco": 299.99,
     "qtde_pessoas": 1,
     "data_ida": "2022-03-12",
     "data_volta": "2022-04-14"

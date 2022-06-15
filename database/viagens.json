@@ -3,36 +3,36 @@
       "codigo": 1,
       "passagem": 8,
       "cliente": 1,
-      "total": 0
+      "total": 600
     },
     {
       "codigo": 2,
       "passagem": 1,
       "cliente": 1,
-      "total": 0
+      "total": 450
     },
     {
       "codigo": 3,
       "passagem": 1,
       "cliente": 2,
-      "total": 0
+      "total": 450
     },
     {
       "codigo": 4,
       "passagem": 2,
       "cliente": 2,
-      "total": 0
+      "total": 300
     },
     {
       "codigo": 5,
       "passagem": 3,
       "cliente": 2,
-      "total": 0
+      "total": 350
     },
     {
       "codigo": 6,
       "passagem": 7,
       "cliente": 3,
-      "total": 0
+      "total": 700
     }
 ]
